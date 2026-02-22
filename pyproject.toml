@@ -1,0 +1,20 @@
+[project]
+name = "vacation-renatal-recommendation"
+version = "0.1.0"
+description = "Simple recommender system which suggests new properties for rental beased on previous users' reviews."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.1",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pre-commit>=4.5.1",
+    "ruff>=0.15.2",
+]
+
+[tool.ruff]
+line-length = 88
